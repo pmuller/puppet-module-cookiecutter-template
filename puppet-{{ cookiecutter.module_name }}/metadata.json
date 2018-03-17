@@ -1,0 +1,38 @@
+{
+  "name": "{{ cookiecutter.username }}-{{ cookiecutter.module_name }}",
+  "version": "{{ cookiecutter.version }}",
+  "author": "{{ cookiecutter.author }}",
+  "summary": "{{ cookiecutter.summary }}",
+  "license": "{{ cookiecutter.license }}",
+  "source": "https://github.com/{{ cookiecutter.username }}/puppet-{{ cookiecutter.module_name }}",
+  "tags": [
+  ],
+  "issues_url": "https://github.com/{{ cookiecutter.username }}/puppet-{{ cookiecutter.module_name }}/issues",
+  "project_page": "https://github.com/{{ cookiecutter.username }}/puppet-{{ cookiecutter.module_name }}",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": ["6", "7"]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": ["6", "7"]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": ["6", "7"]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": ["6", "7"]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 6.0.0"
+    }
+  ],
+  "dependencies": [
+  ]
+}

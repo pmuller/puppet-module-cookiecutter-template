@@ -1,0 +1,9 @@
+{
+    "username": "johndoe",
+    "author": "John Doe",
+    "module_name": "amazing_module",
+    "summary": "This module is amazing",
+    "version": "0.0.1",
+    "license": "Apache-2.0",
+    "forge_password": "TODO"
+}
