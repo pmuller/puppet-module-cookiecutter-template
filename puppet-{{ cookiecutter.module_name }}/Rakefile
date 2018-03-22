@@ -2,3 +2,9 @@
 
 require 'puppetlabs_spec_helper/rake_tasks'
 require 'puppet-syntax/tasks/puppet-syntax'
+
+desc 'Run tests and do not delete fixtures'
+task 'spec_no_clean' do
+  Rake::Task['spec_prep'].invoke
+  Rake::Task['spec_standalone'].invoke
+end
